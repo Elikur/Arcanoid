@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technolab.galaxy.arcanoid">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity" android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ArcanoidActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".CommandActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".LoseActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".WinActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog"/>
+
+    </application>
+
+</manifest>

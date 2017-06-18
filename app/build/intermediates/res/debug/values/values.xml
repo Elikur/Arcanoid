@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Android/Arcanoid-master/Arcanoid-master/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Arcanoid</string>
+    <!-- From: file:/C:/Android/Arcanoid-master/Arcanoid-master/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.DeviceDefault">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
